@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'Digital7';
+  src: url('fonts/digital-7.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: digital7;
+    background-color: black;
+    
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+    
+}
+.containerTime{ 
+    display: flex;
+    font-size: 200px;
+    letter-spacing: 5px;
+    text-align: center;
+    
+    
+    
+}
+.hr, .min, .sec {
+    
+    
+    width: 200px;
+    height: 200px ;
+    text-align: center;
+    border: solid 2px ;
+    padding: 30px;
+    margin: 0 px;
+}
+
+.ampm{
+    
+    margin-left: 20px;
+    font-size: 75px;
+    display: flex;
+    margin-top: 135px;
+    
+    padding: 30;
+    
+}
+
+.dot{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+    
